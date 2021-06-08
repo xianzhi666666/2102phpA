@@ -1,0 +1,8 @@
+create table `zxz`(
+    `uid` int unsigned auto_increment primary key,
+    `username` varchar(64),
+    `email` varchar(64),
+    `password` varchar(120),
+    `tel` char(11),
+    `gender` char(8)
+);
